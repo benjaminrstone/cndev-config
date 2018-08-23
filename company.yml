@@ -1,4 +1,8 @@
 ---
 
-info:
-  message: ben
+---
+
+spring:
+  profiles: cloud
+
+message: ben
