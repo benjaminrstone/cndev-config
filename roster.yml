@@ -15,3 +15,11 @@ management:
         include: "*"
 
 message: "{cipher}d2e6f8b06a2c97bbc6162bcc19f359044ab1bc18a28f0a44161ed6cf6ca31549485eca5b7fd40636c712428415197f55"
+
+
+---
+
+spring: 
+  cloud:
+    services:
+      registrationMethod: direct
