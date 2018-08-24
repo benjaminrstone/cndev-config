@@ -6,6 +6,9 @@ info:
 ---
 
 spring:
+  profiles: cloud
+
+spring:
   cloud:
     services:
       registrationMethod: direct
