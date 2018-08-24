@@ -2,3 +2,10 @@
 
 info:
   description: training config repo
+
+---
+
+spring:
+  cloud:
+    services:
+      registrationMethod: direct
